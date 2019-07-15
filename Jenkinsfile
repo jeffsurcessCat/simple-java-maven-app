@@ -1,8 +1,4 @@
 pipeline {
-	environment { 
-		HTTP_PROXY = 'http://proxy.cat.com'
-		HTTPS_PROXY = 'http://proxy.cat.com'
-	}
     agent {
         docker {
             image 'maven:3-alpine' 
